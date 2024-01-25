@@ -1,0 +1,54 @@
+FINISHED 1 - File to class
+    [x] 1.1 - tclass file to a simple object
+    /*
+        FINISHED File to object splitting sequence
+        1 - split with "###"
+
+        2 - take the split("###")[res.length - 1] -> for the recent
+        
+        3 - split with "//"
+            
+            Now we have : 
+            rsplit[0] = the object type name
+            replit[1] = the object field value
+                
+                Note : rsplit is the result of the split with "//"
+
+        4 - save rsplit[0]
+    
+        5 - split rsplit[1] with ";;"
+            
+            Now we have all the field
+        
+        6 - split these "fields" with "=="
+
+            Now we have the field name and type -> [0] and the value -> [1]
+
+        7 - split these "the field name and type -> [0]" with "::" 
+
+            Now we have the field name -> [0] and the field type -> [1]
+
+    */
+
+    [x] 1.2 - tclass file to an object array
+
+TODO 2 - object array to Java.swing Jtable
+    [x] 2.1 - show the data
+        [x] Press enter to send the field data to the object
+        [x] Press alt to open a frame (like the testFrame) with the data 
+            [x] Make the simple frame with argument the object and customizable default close operation
+            [x] add the key listener
+        [x] Integrate : 
+                [x] the sum 
+                [x] the triage 
+                [x] the max value
+                [x] the min value
+                [x] the average
+            NOTE all Integrate is for numerical data only 
+    [x] 2.2 - table fields to the object
+    [x] 2.3 - export the object array to a tclass folder 
+    [ ] 2.4 - vice versa
+    [x] 2.5 - add a new line
+    [ ] 2.6 - sorting
+        [x] Ascending 
+        [ ] Descending
